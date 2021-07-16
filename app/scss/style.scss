@@ -47,7 +47,7 @@
 }
 // start arrears
 .arrears{
-    margin-top: 30px;
+    padding: 30px 0px;
     .title{
         font-weight: 900;
         font-size: 28px;
@@ -215,13 +215,66 @@
         
     }
 }
-
-
-
-
-
 // end arrears
-
-
-
-
+// start slider
+.slider{
+    background-color: #F7F7F7;
+    padding: 20px 0px 55px;
+    .slider__title{
+        text-align: right;
+        font-size: 16px;
+        line-height: 20px;
+        color: $page;
+        font-weight: 600;
+    }
+}
+.slider__inner{
+    text-align: center;
+    position: relative;
+    .slider__item{
+        max-width: 380px;
+        margin: 0 auto;
+        .slider__img-box{
+            background-color: #DBDBDB;
+            max-width: 100%;
+            min-height: 150px;
+            position: relative;
+            margin: 0 auto;
+            border-radius: 10px;
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .slider__item-title{
+            text-align: left;
+            font-size: 18px;
+            line-height: 23px;
+            font-weight: 700;
+            color: #203538;
+        }
+        .slider__item-text{
+            text-align: left;
+        }
+    }
+}
+.slick-btn{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+.slick-prev{
+    left: -8px;
+    top: 58px;
+    z-index: 5;
+}
+.slick-next{
+    right: -8px;
+    top: 58px;
+}

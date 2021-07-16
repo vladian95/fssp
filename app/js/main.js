@@ -9,5 +9,13 @@ $(function(){
         return false;
     });
 
+    $('.slider__inner').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: '<button class="slick-btn slick-prev"><img src="images/arrow-left.png" alt="#"></button>',
+        nextArrow: '<button class="slick-btn slick-next"><img src="images/arrow-right.png" alt="#"></button>'
+      });
+          
+
     
 });
