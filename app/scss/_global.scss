@@ -15,3 +15,15 @@ li{
     margin: 0;
     list-style: none;
 }
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #203538;
+}
+.container{
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}

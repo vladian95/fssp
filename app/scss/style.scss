@@ -2,6 +2,48 @@
 @import 'global';
 @import 'fonts';
 
+.header{
+    border-top: 20px solid #03A06C;
+    padding: 0px 15px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    .logo__text{
+        font-size: 22px;
+        line-height: 27px;
+        color: #000;
+        max-width: 298px;
+        margin-left: 20px;
+    }
+}
+.header__info{
+    display: flex;
+    align-items: center;
+    .header__info-box{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: right;
+        margin-right: 30px;
+        .header__info-text{
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.3);
+            max-width: 240px;
+            margin: 0;
+        }
+        .header__info-num{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
 
 
 
