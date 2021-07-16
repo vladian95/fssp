@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,18 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="logo">
-                    <a href="logo__link">
+                    <a href="#" class="logo__link">
                         <img src="images/logo.png" alt="#">
                     </a>
                     <p class="logo__text">Проверка и оплата задолженности ФССП РФ</p>
@@ -24,7 +27,7 @@
                 <div class="header__info">
                     <div class="header__info-box">
                         <p class="header__info-text">Единый бесплатный многоканальный справочный номер ФССП России:</p>
-                        <a class="header__info-num" href="tel:88002503932">8 (800) 250 39 32</a> 
+                        <a class="header__info-num" href="tel:88002503932">8 (800) 250 39 32</a>
                     </div>
                     <div class="header__user">
                         <img src="images/user-img.svg" alt="#">
@@ -33,7 +36,161 @@
             </div>
         </div>
     </header>
- 
+    <section class="arrears">
+        <div class="container">
+            <div class="arrears__inner">
+                <div class="arrears__content-box">
+                    <h1 class="title">
+                        Проверить задолженность у судебных приставов
+                    </h1>
+                    <div class="arrears__tabs-inner">
+                        <div class="tabs">
+                            <span class="tab active" data-id="1">Физическое лицо</span>
+                            <span class="tab" data-id="2">Юридическое лицо</span>
+                            <span class="tab" data-id="3">Номер ИП</span>
+                            <span class="tab" data-id="4">Номер ИД</span>
+                        </div>
+                        <div class="tab_content">
+                            <div class="tab-item active-tab" id="1">
+                                <div class="tab__form">
+                                    <form>
+                                        <div class="form__top">
+                                            <input class="name" type="text" placeholder="Иванов Иван Иванович">
+                                            <input class="data" type="date">
+                                        </div>
+                                        <div class="form__bottom">
+                                            <select>
+                                                <option value="">Все регионы</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                            </select>
+                                            <button class="tab__btn">Проверить задолженности</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-item" id="2">
+                                <div class="tab__form">
+                                    <form>
+                                        <div class="form__top">
+                                            <input class="name" type="text" placeholder="Иванов Иван Иванович">
+                                            <input class="data" type="date">
+                                        </div>
+                                        <div class="form__bottom">
+                                            <select>
+                                                <option value="">Все регионы</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                            </select>
+                                            <button class="tab__btn">Проверить задолженности</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-item" id="3">
+                                <div class="tab__form">
+                                    <form>
+                                        <div class="form__top">
+                                            <input class="name" type="text" placeholder="Иванов Иван Иванович">
+                                            <input class="data" type="date">
+                                        </div>
+                                        <div class="form__bottom">
+                                            <select>
+                                                <option value="">Все регионы</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                            </select>
+                                            <button class="tab__btn">Проверить задолженности</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-item" id="4">
+                                <div class="tab__form">
+                                    <form>
+                                        <div class="form__top">
+                                            <input class="name" type="text" placeholder="Иванов Иван Иванович">
+                                            <input class="data" type="date">
+                                        </div>
+                                        <div class="form__bottom">
+                                            <select>
+                                                <option value="">Все регионы</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                                <option value="">asdasdasd</option>
+                                            </select>
+                                            <button class="tab__btn">Проверить задолженности</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qr__inner" style="background-image: url(images/qrbgi.jpeg);">
+                        <div class="qr__text-box">
+                            <ul>
+                                <li class="first">
+                                    Проверка и оплата по базе ФССП
+                                </li>
+                                <li class="second">
+                                    Квитанция об оплате всегда под рукой
+                                </li>
+                                <li class="third">
+                                    Ответы на часто задаваемые вопросы
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-box">
+                    <div class="sidebar__item">
+                        <div class="sidebar-img">
+                            <img src="images/gerb.png" alt="#">
+                        </div>
+                        <div class="sidebar__text-box">
+                            <h3 class="sidebar__item-title">Официальный источник данных</h3>
+                            <p class="sidebar__item-text">Сведения о задолженностях получаются из официального банка данных исполнительных производств ФССП России</p>
+                        </div>
+                    </div>
+                    <div class="sidebar__item">
+                        <div class="sidebar-img">
+                            <img src="images/repaid.png" alt="#">
+                        </div>
+                        <div class="sidebar__text-box">
+                            <h3 class="sidebar__item-title">Гарантия погашения</h3>
+                            <p class="sidebar__item-text">Сведения об оплате передаются в ФССП России с использованием шлюзов Федерального казначейства</p>
+                        </div>
+                    </div>
+                    <div class="sidebar__item">
+                        <div class="sidebar-img">
+                            <img src="images/group.png" alt="#">
+                        </div>
+                        <div class="sidebar__text-box">
+                            <h3 class="sidebar__item-title">Безопасные платежи</h3>
+                            <p class="sidebar__item-text">Безопасность платежей и данных банковских карт подтверждается сертификатом PCI DSS</p>
+                        </div>
+                    </div>
+                    <div class="sidebar__item">
+                        <div class="sidebar-img">
+                            <img src="images/groupimg.png" alt="#">
+                        </div>
+                        <div class="sidebar__text-box">
+                            <h3 class="sidebar__item-title">Квитанция об оплате</h3>
+                            <p class="sidebar__item-text">Квитанция будет отправлена на указанный Вами адрес электронной почты сразу же после оплаты</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -43,4 +200,5 @@
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
