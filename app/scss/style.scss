@@ -63,6 +63,105 @@
 .arrears__content-box{
     max-width: 850px;
 }
+.ataptive__tab-item{
+    display: none;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    & + .ataptive__tab-item{
+        margin-top: 20px;
+    }
+    .adaptive__title{
+        position: relative;
+        width: 100%;
+        padding: 28px 20px 28px 45px;
+        font-size: 16px;
+        color: #4D4D4D;
+    }
+    .adaptive__title-fiz{
+        &::before{
+            content: '\f2c0';
+            font-family: icomoon;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 25px;
+            top: 27px;
+            color: $page;      
+        }
+    }
+    .adaptive__title-ur{
+        padding-left: 90px;
+        &::before{
+            content: '';
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            left: 25px;
+            top: 14px;
+            color: $page;  
+            background-image: url(../images/apadtive/build.svg);    
+        }
+    }
+    .adaptive__title-ip{
+        padding-left: 90px;
+        &::before{
+            content: '';
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 25px;
+            top: 14px;
+            color: $page;  
+            background-image: url(../images/apadtive/ip.svg);    
+        }
+    }
+    .adaptive__title-id{
+        padding-left: 90px;
+        &::before{
+            content: '';
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 25px;
+            top: 14px;
+            color: $page;  
+            background-image: url(../images/apadtive/id.svg);    
+        }
+    }
+    .dropdown{
+        display: none;
+        width: 100%;
+        padding: 0px 20px;
+        font-size: 16px;
+        color: #4D4D4D; 
+        padding-bottom: 30px;
+    }
+    input,
+    button,
+    select{
+        display: block;
+        width: 100%;
+        padding: 15px 0px;
+        background-color: rgba(3, 160, 108, 0.07);
+        border: none;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        color: #939393;
+    }
+    select{
+        color: #939393;
+    }
+    .adaptive__btn{
+        border: 1px solid $page;
+        color: $page;
+        background-color: transparent;
+    }
+} 
+
+
+
+
 .arrears__tabs-inner{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -398,3 +497,8 @@ padding: 40px 0px;
 
 
 // footer end
+.asdfg{
+    display: none
+}
+
+@import 'media';

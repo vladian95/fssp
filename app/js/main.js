@@ -16,6 +16,10 @@ $(function(){
         nextArrow: '<button class="slick-btn slick-next"><img src="images/arrow-right.png" alt="#"></button>'
       });
           
+    
 
+    $('.adaptive__title').on('click', function(){
+        $(this).next('.dropdown').slideToggle()
+    });
     
 });

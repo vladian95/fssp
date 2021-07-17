@@ -1,0 +1,28 @@
+@media (max-width: 1195px){
+    .arrears__inner{
+        display: block;
+    }
+    .arrears__content-box{
+        max-width: 100%;
+    }
+    .qr__inner{
+        margin-bottom: 20px;
+    }
+    .sidebar-box{
+        .sidebar__item{
+            max-width: 100%;
+            justify-content: flex-start;
+        }
+    } 
+}
+@media (max-width: 890px){
+    .ataptive__tab-item{
+        display: block;
+    }
+    .arrears__tabs-inner,
+    .qr__inner,
+    .sidebar-box{
+        display: none;
+    }
+
+}
