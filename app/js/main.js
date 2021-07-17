@@ -13,7 +13,25 @@ $(function(){
         slidesToShow: 3,
         slidesToScroll: 3,
         prevArrow: '<button class="slick-btn slick-prev"><img src="images/arrow-left.png" alt="#"></button>',
-        nextArrow: '<button class="slick-btn slick-next"><img src="images/arrow-right.png" alt="#"></button>'
+        nextArrow: '<button class="slick-btn slick-next"><img src="images/arrow-right.png" alt="#"></button>',
+        responsive: [
+            {
+              breakpoint: 1195,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              }
+            },
+            {
+                breakpoint: 801,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  dots: true,
+                  arrows: false,
+                }
+              },
+          ]
       });
           
     $('.adaptive__title').on('click', function(){
