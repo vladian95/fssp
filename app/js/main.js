@@ -37,7 +37,7 @@ $(function () {
   $('.noAdaptive__select, .adaptive__select').styler();
 
   $('.adaptive__title').on('click', function () {
-    $(this).next('.dropdown').slideToggle()
+    $(this).next('.dropdown__form-adaptive').slideToggle()
   });
 
   $('.sidebar__adaptive-title').on('click', function () {
