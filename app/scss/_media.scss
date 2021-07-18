@@ -51,6 +51,38 @@
     .sidebar-box{
         display: none;
     }
+    .jq-selectbox{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .jq-selectbox__select{
+        width: 100%;
+        background-color: rgba(3, 160, 108, 0.07);
+        border: 0px;
+        &:hover{
+            background-color: rgba(3, 160, 108, 0.07);
+        }
+    }
+    .ataptive__tab-item{
+        display: block;
+        width: 100%;
+        .dropdown{
+            display: block;
+        }
+    } 
+    .jq-selectbox__dropdown{
+        right: 0;
+    }
+    // .jq-selectbox.jqselect.adaptive__select.dropdown.opened{
+        
+         
+    // }
+    
+    .ataptive__tab-item{
+        select{
+            background-color: transparent;
+        }
+    } 
 }
 @media (max-width: 800px){
     .logo{

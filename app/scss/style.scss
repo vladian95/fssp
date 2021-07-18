@@ -159,6 +159,63 @@
         background-color: transparent;
     }
 }
+.jq-selectbox{
+    background-color: #fff;
+    border-radius: 6px; 
+}
+
+.jq-selectbox__select{
+    height: 64px;
+    width: 460px;
+    padding: 22px 42px 0px 16px;
+    box-shadow: none;
+    background: #fff;
+    &:hover{
+        background: transparent;
+    }
+}
+.jq-selectbox__select-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #939393;
+}
+.jq-selectbox__trigger{
+    border-left: 0px;
+}
+.jq-selectbox__trigger-arrow{
+    border: none;
+    position: relative;
+    &::before{
+        content: '';
+        background-image: url(../images/apadtive/select_arrow.svg);
+        height: 8px;
+        width: 13px;
+        position: absolute;
+        top: 13px;
+        right: -23px;  
+    }
+}
+.jq-selectbox__dropdown{
+    top: 62px;
+    border-radius: 0px;
+    ul{
+        max-height: 380px;
+        overflow-x: hidden;
+        &::-webkit-scrollbar{
+        width: 7px;
+        }
+        &::-webkit-scrollbar-track{
+            background-color: #E0E0E0;
+        }
+        &::-webkit-scrollbar-thumb{
+            background-color: $page;
+            border-radius: 4px;
+        }
+        li{
+            color: #808080;
+        }
+    }
+}
 .arrears__tabs-inner {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
